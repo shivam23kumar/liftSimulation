@@ -6,7 +6,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-
 .lift-input{
     margin:10rem;
     display:flex;
@@ -15,17 +14,14 @@ body{
 }
 .inputs{
     margin:10px;
-    
 }
 .input{
     width:30rem;
 }
 input[type=number]{
     padding:10px;
-    border-radius:5px;
-    
+    border-radius:5px;   
 }
-
 .labels{
     display:block;
     margin:0.25rem;
@@ -38,8 +34,6 @@ input[type=number]{
     background-color:#6699ff;
     border-radius:5px;
 }
-
-
 @media only screen and (max-width: 480px){
     .lift-input{
         height:10vh;
