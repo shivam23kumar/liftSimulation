@@ -19,7 +19,15 @@ function liftFunctioning(){
     system.floors = totalFloors
     system.lifts = totalLifts
 
+    for(let i=0; i<system.floors;i++){
+        system.state.push({
+            id : i,
+            floor: 1,
+            isAvailable:1
+        })
+    }
 
 
-    console.log(totalLifts, totalFloors)
+
+    console.log(system.state, system.floors, system.lifts)
 }
